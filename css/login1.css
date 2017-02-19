@@ -1,0 +1,210 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,600,700,100,800,900,400,200,300);
+@import url(http://fonts.googleapis.com/css?family=Playball);
+
+body, html{
+  font-family: 'Raleway', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  background-image: url(../img/b.jpg);
+  
+}
+
+@media (min-width: 1200px){
+  .container {
+  width: 1100px;
+
+
+  }
+}
+
+.container-fluid{
+  
+  height:100px;
+}
+.about-item h3{
+  color:black;
+
+
+}
+.about-item{
+  /*background-image: url(../img/shade.jpeg);*/
+  background-image: url(../img/b.jpg);
+  opacity:0.8;
+}
+#tf-home{
+  background: url(../img/01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #cfcfcf;
+}
+
+#tf-home .overlay{
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+  height:90px;
+  background-attachment: fixed;
+}
+
+.content{
+  padding: 15% 0 18% 0;
+  text-align: center;
+}
+.text-center h3{
+
+  font-family:Arial;
+}
+h3{
+  font-family:Comic Sans MS;
+}
+.about-item p{
+  color:white;
+  padding:5%;
+}
+i{
+	border-radius:50%;
+
+}
+i.fa.fa-user-md{
+  margin-top:10%;
+	border:2px solid #0ab9c1;
+	padding:35px;
+}
+
+i.fa.fa-hospital-o
+{
+  margin-top:10%;
+	border:2px solid #31fa91;
+	padding:35px;
+}
+.med{
+  margin-top:10%;
+	border:2px solid rgba(250, 85, 49, 0.6);
+  padding:35px;
+	 border-radius:50%;
+}
+.row{
+  margin-top:-40px;
+}
+
+header{
+  position:relative;
+  top:50px;
+
+}
+header h3{
+  color:rgba(0,0,0,0.7);
+  font-weight:2.1em;
+
+
+}
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color:white;
+  background-color: #2F937B; 
+   -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+.button:hover, .button:focus {
+    color:black;
+}
+
+.button-block {
+  display: block;
+  width: 100%;
+}
+#tf-menu {
+  margin-bottom: 0;
+  background: transparent;
+  border: 0;
+  color: #fff !important;
+  padding: 2% 0;
+  transition: all 0.5s;
+}
+#sticky {
+    padding: 0.5ex;
+    background-color: #333;
+    color: #fff;
+    font-size: 2em;
+    border-radius: 0.5ex;
+}
+#tf-menu.stick {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    background: #222222;
+    padding: 1% 0;
+}
+#tf-menu.navbar-default .navbar-nav > li > a {
+  color: #C5C5C5;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#tf-menu.navbar-default .navbar-nav > li > a:hover, 
+#tf-menu.navbar-default .navbar-nav > li > a:focus {
+  color: #2F937B;
+  background-color: transparent;
+}
+
+.logo {
+  font-family: 'Playball', cursive;
+
+}
+.logo img{
+  margin-top:-15%;
+}
+
+#tf-service{
+  padding: 7% 0; 
+}
+
+.media-left.media-middle i {
+  padding: 20px 30px 20px 0;
+  font-size: 30px;
+  color: rgb(47, 147, 123);
+
+}
+
+.media-body h4 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(47, 147, 123);
+}
+
+#tf-portfolio{
+  background: #f1f1f1;
+  padding: 5%  0 8% 0;
+  text-align: center;
+}
+nav#tf-footer {
+  background: #222222;
+  padding: 1% 0 1% 0;
+  color: #f1f1f1;
+  margin-top: 20%;
+}
+.pull-left a{
+  color:#f1f1f1;
+}
+.pull-right span
+{
+  color:#f1f1f1;
+}
