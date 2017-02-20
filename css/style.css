@@ -128,7 +128,7 @@ a:focus{
 }
 
 #tf-service{
-	padding: 7% 0; 
+	padding:0; 
 }
 
 .media-left.media-middle i {
@@ -156,7 +156,12 @@ a:focus{
 	width: 60px;
 }
 
-.section-title h2{ font-weight: 600;}
+.section-title h2{ 
+	font-weight: 600;
+	color:black;
+	font-size:2em;
+	margin-bottom: 4%;
+}
 button.btn,
 a.btn {
 	margin: 15px 5px;
